@@ -1,0 +1,29 @@
+p {
+  font-family: Lato;
+}
+
+.local {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 20vw;
+  height: 20vh;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.remote1 {
+  position: fixed;
+  top: 100;
+  left: 100;
+  width: 100%;
+  height: 100%;
+}
+
+.remote {
+  width: 15vw;
+  height: 15vh;
+  border-radius: 5px;
+  overflow: hidden;
+}
