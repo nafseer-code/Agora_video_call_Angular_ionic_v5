@@ -74,3 +74,4 @@ private assignClientHandlers(): void {
   # Create Stream
   
   this.localStream = this.ngxAgoraService.createStream({ streamID: this.uid, audio: true, video: true, screen: false });
+  //here uid is a random code
